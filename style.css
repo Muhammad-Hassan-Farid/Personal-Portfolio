@@ -1,0 +1,346 @@
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+#head_Name
+{
+    color: white;
+    font-family: Brush Script MT;
+    font-size: 50px;
+}
+#navi1
+{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgb(211, 138, 37) 100%);
+    height: 18vh;
+}
+
+
+#navi1 li a
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Comic Sans MS;
+}
+
+#navi1 ul li a:hover
+{
+    color: black;
+    background-color: rgb(0, 255, 255);
+    border-radius: 10%;
+    transition: 0.2s;
+}
+#navi1 ul li a::after
+{
+    content: '';
+    width: 0%;
+    height: 3px;
+    color: black;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+#navi1 ul li a:hover::after
+{
+    width: 100%;
+}
+#small-screen
+{
+    position: relative;
+    top: 70px;
+}
+
+
+#home h2,h1
+{
+      color:rgb(254, 255, 255);
+      font-family: Comic Sans MS;
+}
+#home h2 a
+{
+    color:aqua;
+    font-family: Comic Sans MS;
+    text-decoration: none;
+}
+
+#bt2
+{
+    font-family: Comic Sans MS;
+    color: #00ffff;
+    border-color: aqua;
+}
+#bt2:hover
+{
+    color: black;
+    background-color: aqua;
+    font-size: 21px;
+    font-family: Comic Sans MS;
+}
+.socialIcons a i
+{
+    color: aliceblue;
+    font-size: 20px;
+    align-items: center;
+    width: 45px;
+    height: 50px;
+    margin: 8px;
+    border: 2px solid white;
+    padding: 13px;
+    width: 50px;
+    border-radius: 100%;
+    
+}
+#socialIcon1:hover
+{
+    background-color: #ed143d;
+    
+}
+#socialIcon2:hover
+{
+    background-color: black;
+    border-color: black;
+}
+#socialIcon3:hover
+{
+    background-color: rgb(2, 2, 105);
+    border-color: rgb(2, 2, 105);
+}
+#socialIcon4:hover
+{
+    background-color: green;
+    border-color: green;
+}
+
+#skills h2
+{
+    font-size: 70px;
+    font-family: Comic Sans MS;
+}
+#About
+{
+    color:white;
+    font-family: Comic Sans MS;;
+}
+#About h2
+{
+    font-size: 70px;
+    font-family: Comic Sans MS;
+}
+
+#icon 
+{
+    margin: 2rem 2rem;
+    width: 15rem;
+    height: 12rem;
+    background: rgba(253, 123, 123, 0.432);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.952);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#icon i
+{
+    font-size: 5rem;
+    color: white;
+}
+#icon i,p
+{
+    position: relative;
+    top: 20%;
+}
+
+#icon::before
+{
+    content: "";
+    position: absolute;
+    background: aqua;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform-origin: bottom;
+    transform: scaleY(0.03);
+    transition: all 0.3s;
+}
+#icon:hover
+{
+    
+    background: rgb(34, 173, 173);
+    transition: 0.5s;
+}
+#Projects h2
+{
+    font-size: 70px;
+    font-family: Comic Sans MS;
+}
+#myProjects
+{
+    border: 2px solid rgba(255, 255, 255, 0.068);
+    padding: 25px;
+    background: rgba(221, 57, 57, 0.705);
+    border-radius: 0.5rem;
+    transition: all .40s ease;
+    text-decoration: none;
+    margin-top: 20px;
+    scroll-behavior: smooth;
+}
+#Projects a
+{
+    text-decoration: none;
+}
+#Projects h5,h6
+{
+    color: rgb(144, 255, 255);
+    font-family: Comic Sans MS;
+    
+}
+#myProjects:hover
+{
+    border: 3px solid aqua;
+    transition: 0.3s;
+   
+}
+
+#Contact h2
+{
+    font-size: 70px;
+    font-family: Comic Sans MS;
+}
+
+#icon2 i
+{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+#icon2 p
+{
+    font-family: Comic Sans MS;
+}
+form .txt_field
+{
+   
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+
+}
+
+.txt_field input,textarea
+{
+    color: white;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.txt_field 
+{
+    width: 100%;
+    padding: 0 5px;
+    height: 35px;
+    border: none;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    
+}
+
+
+#btn1
+{
+    color: aqua;
+    font-family: Comic Sans MS;
+    border-color: aqua;
+}
+#btn1:hover
+{
+    background-color: aqua;
+    color: black;
+    margin-top: 5%;
+}
+#footer
+{
+    font-family: Comic Sans MS;
+}
+
+.to-top
+{
+    background: #00ffff;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.to-top.active
+{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+@media (max-width: 991px) 
+{
+    #head_Name
+    {
+        font-size: 30px;
+    }
+    #icon 
+    {
+        margin: 0px;
+        margin-bottom: 30px;
+        width: 9rem;
+        height: 9rem;
+        
+    }
+    #icon i
+    {
+        font-size: 3rem;
+        position: relative;
+        top: 20%;
+    }
+   
+    #myProjects
+    {
+        margin-top: 25px;
+    }
+    
+    #profile-pic
+    {
+        height: 300px;
+    }
+    #navi1 ul li a:hover{
+        background-color: transparent;
+        color: white;
+    }
+    #navi1 ul li a::after{
+        height:0px;
+    }
+    #navi1
+    {
+        height: 5vh;
+    }
+
+    
+  }
