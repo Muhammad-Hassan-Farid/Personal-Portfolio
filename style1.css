@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.text-center
+{
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    color: aqua;
+    font-family: Comic Sans MS;
+}
+#calculator
+{
+    margin: auto;
+    text-align: center;
+}
+.row
+{
+    margin: 13px 0;
+}
+.button
+{
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    border-radius: 50px;
+    margin: 0 10px;
+    font-family: Comic Sans MS;
+    background-color: rgb(128, 193, 255);
+
+}
+#button1
+{
+    width: 130px;
+}
+.button:hover
+{
+    background: red;
+}
+.row input
+{
+    font-size: 23px;
+    margin: 0;
+    padding: 10px 38px;
+    height: 25px;
+    background-color: rgb(128, 193, 255);
+    border: 2px solid black;
+    border-radius: 40px;
+}
