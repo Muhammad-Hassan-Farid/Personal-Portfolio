@@ -1,6 +1,6 @@
-
-# Portfolio
-
+<div align="center">
+<h1> Portfolio </h1>
+</div>
 This is my personal Portfolio about my self, skills and projects i had done in past.
 
 
