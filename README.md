@@ -31,7 +31,4 @@ HTML, CSS, Bootstrap and  Javascript
 ### Contact:
 ![Contact](https://github.com/Muhammad-Hassan-Farid/Portfolio/blob/master/images/Contact.png?raw=true)
 
-
-
-
 # Give It A Star🌟 If You Like It
